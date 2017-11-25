@@ -10,4 +10,4 @@ RUN \
     # Cleanup
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT [ "/usr/bin/lognormalizer " ]
+CMD [ "/usr/bin/lognormalizer " ]
