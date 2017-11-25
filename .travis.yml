@@ -15,4 +15,4 @@ before_install:
 script:
   - docker build -t FoxBoxsnet/Lognormalizer:test .
   - docker images
-    docker history Lognormalizer/Lognormalizer:test
+    docker history FoxBoxsnet/Lognormalizer:test
