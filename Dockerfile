@@ -10,4 +10,4 @@ RUN \
     # Cleanup
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT [ "/bin/bash" ]
+CMD [ "/bin/bash" ]
